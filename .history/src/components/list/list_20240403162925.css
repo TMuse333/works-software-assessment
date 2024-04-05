@@ -1,0 +1,146 @@
+.hydro-element{
+  
+    color:white;
+  
+    border-bottom:2px solid rgb(255, 255, 255);
+    
+}
+
+.docs-intro{
+    color:white;
+    padding:0 1rem 0 1rem;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.hydro-element p{
+
+  
+
+
+ 
+   
+}
+
+.hydro-expanded{
+    background: radial-gradient(circle at center, rgb(144, 118, 0), rgb(125, 102, 0));
+
+}
+
+.hydro-list{
+    /* position: absolute; */
+    /* top:-10rem; */
+ 
+}
+
+.hydro-expanded p{
+    /* padding: 1rem */
+    padding:0 1rem 0 1rem;
+    white-space: pre-line;
+}
+
+.name-logo-box{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.plus-minus {
+ 
+    transition: all 0.9s ease;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .plus-minus :nth-child(1){
+
+    transform: rotate(90deg) translateX(15px) translateY(0.5px);
+  }
+
+  .hydro-line{
+    width:2px;
+    height:15px;
+    background-color: white;
+    transition: height 0.3s ease-in-out;
+  }
+  
+ 
+
+  .hydro-line.clicked:nth-child(2){
+    width: 0;
+ height: 0px;
+    transition: height 0.3s ease-in-out;
+  }
+
+
+
+.hydrolist-container{
+    /* margin-top:-2rem; */
+    margin:2rem auto 0 auto;
+    position: relative;
+    width:80vw
+}
+
+.hydro-element h2{
+    font-size: 1.2rem;
+    padding-left:0.5rem
+
+}
+
+.docs-intro{
+   /* font-size: 1.3rem; */
+}
+
+@media screen and (min-width:655px){
+    .hydrolist-container{
+        width:88vw;
+        /* margin-left:0.5rem ; */
+        margin-top: -2rem;
+    }
+
+    .docs-intro{
+        margin-bottom: 3rem;
+    }
+
+    .plus-minus{
+        margin-right: 2rem;
+    }
+
+    /* worth noting that if hydro element
+    is to be used not as a customText,
+    the positioning must be different
+    */
+}
+
+@media screen and (min-width:865px){
+    .hydro-list{
+        /* position: absolute;
+        top:0; */
+        /* left:50%;
+        transform: translateX(-50%); */
+     
+    }
+
+.hydro-wrapper{
+    /* margin-top: -15rem; */
+    /* margin-bottom: 10rem; */
+    /* height:max-content; */
+    position: relative;
+
+}
+
+    .docs-intro {
+    font-size: 1.5rem;
+        
+    }
+
+    .hydrolist-container{
+        /* width:40vw; */
+        width: 100%;
+        margin-left:auto ;
+        margin-top: -3rem;
+        max-width: 900px;
+    }
+}
