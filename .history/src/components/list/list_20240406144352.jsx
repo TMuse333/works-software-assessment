@@ -389,8 +389,7 @@ const List = ({}) => {
                 </input>
             </label>
 
-            <label htmlFor="description"
-             className="description-container">
+            <label htmlFor="description">
                 <textarea
 
                type='name'

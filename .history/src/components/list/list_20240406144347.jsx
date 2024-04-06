@@ -381,7 +381,7 @@ const List = ({}) => {
             <><div className="add-note-container">
             <label htmlFor="note">
                 <input
-
+ className="description-container"
                type='name'
                 name='note'
                 placeholder="Enter your Task "
@@ -389,8 +389,7 @@ const List = ({}) => {
                 </input>
             </label>
 
-            <label htmlFor="description"
-             className="description-container">
+            <label htmlFor="description">
                 <textarea
 
                type='name'

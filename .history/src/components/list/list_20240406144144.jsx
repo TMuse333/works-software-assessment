@@ -389,10 +389,8 @@ const List = ({}) => {
                 </input>
             </label>
 
-            <label htmlFor="description"
-             className="description-container">
+            <label htmlFor="description">
                 <textarea
-
                type='name'
                 name='description'
                 placeholder="Enter a description (optional)"
@@ -516,7 +514,7 @@ const List = ({}) => {
 
             </div>
 
-            {tasks.length === 0 && !addNote &&(
+            {tasks.length === 0 && !add(
   <h2 className="no-notes">
   You currently have no tasks, click the add button to add
   a task!</h2>
